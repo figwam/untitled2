@@ -1,0 +1,98 @@
+#header{
+    width:900px;
+    height: 45px;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: rgba(0,0,0,0.6);
+}
+#nameUser{
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 5px;
+    color: white;
+}
+.form{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.head{
+    background-color: rgba(0,0,0,0.1);
+    text-align: center;
+    margin:0;
+    margin-bottom: 5px;
+    padding: 5px 0;
+}
+
+.label label, .input input{
+    display: block;
+}
+.label label{
+    line-height: 25px;
+}
+
+.label, .input{
+    display: inline-block;
+}
+#numb, #slider{
+    display: inline-block;
+}
+#numb{
+    width: 25px;
+    position: relative;
+    top:-7px;
+}
+#quantity{
+    padding: 0;
+    margin: 0;
+    line-height: 25px;
+}
+#dis{
+    display: block;
+}
+#dis p, #dis textarea{
+    /*display: inline-block;*/
+}
+#dis p{
+    width: 75px;
+    margin-bottom: -20px;
+}
+#dis textarea{
+    width:400px;
+    height:100px;
+    margin-left: 100px;
+}
+.form .but{
+    text-align: center;
+    margin-top:15px;
+}
+.error{
+    text-align: center;
+    color: red;
+    font-size: 14px;
+}
+.success{
+    text-align: center;
+    color: green;
+    font-size: 14px;
+}
+.before{
+    text-align: center;
+    color: rgba(0,0,0,0.8);
+    font-size: 12px;
+}
+.submit{
+    text-align: center;
+    line-height: 30px;
+    width: 250px;
+    color: white;
+    margin: 15px auto;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+.submit:hover{
+    cursor: pointer;
+}
+.submit:active{
+    background-color: rgba(0,0,0,1);
+}

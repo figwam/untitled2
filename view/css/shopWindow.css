@@ -1,0 +1,52 @@
+#header{
+    width:900px;
+    height: 45px;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: rgba(0,0,0,0.6);
+}
+#window{
+    width:900px;
+    margin: 0 auto;
+}
+#shopHeader{
+    padding: 0;
+    margin:0;
+    margin-top: 15px;
+    background-color: rgba(0,0,0,0.1);
+}
+#shopHeader div{
+    display: inline-block;
+    padding:5px 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 24.65%;
+    text-align: center;
+}
+#shopHeader div:first-child{
+    text-align: center;
+}
+#shopHeader .sort:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.15);
+}
+#shopHeader .sort:active{
+    cursor: pointer;
+    background-color: rgba(0,0,0,1);
+    color:white;
+}
+#shopHeader .ascent{
+     /*background-image: url("../../img/sort.png");*/
+     background: url("../../img/ascent.png") no-repeat;
+     background-size: auto 12px;
+     background-position-x: 85%;
+     background-position-y: 100%;
+ }
+#shopHeader .waning{
+    /*background-image: url("../../img/sort.png");*/
+    background: url("../../img/waning.png") no-repeat;
+    background-size: auto 12px;
+    background-position-x: 85%;
+    background-position-y: 0%;
+}
+

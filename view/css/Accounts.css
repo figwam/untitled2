@@ -1,0 +1,65 @@
+label{
+    display: block;
+}
+.label, .input, .status{
+    vertical-align: top;
+}
+.head{
+    background-color: rgba(0,0,0,0.1);
+    text-align: center;
+    margin:0;
+    margin-bottom: 5px;
+    padding: 5px 0;
+}
+.label, .input{
+    display: inline-block;
+}
+.label{
+    width:135px;
+    line-height: 22px;
+    text-align: right;
+    margin-left:15px;
+}
+.input{
+    width:175px;
+}
+input{
+    width: 170px;
+}
+form{
+    width:370px;
+    margin:0 auto;
+}
+.form .but{
+    text-align: center;
+    margin-top:15px;
+}
+.status{
+    display:inline-block;
+    margin-right:15px;
+}
+.status div{
+    height: 22px;
+    width:22px;
+}
+.success{
+    background-image: url("../../img/yes-no.png");
+    background-size: auto 100%;
+    background-position: left;
+}
+.defeat{
+    background-image: url("../../img/yes-no.png");
+    background-size: auto 100%;
+    background-position: right;
+}
+.before{
+    background-image: url("../../img/3.gif");
+    background-size: auto 100%;
+}
+#notification{
+    text-align: center;
+    color:rgba(0,0,0,0.8);
+    font-size: 11px;
+    margin-top:5px;
+    margin-bottom:-10px;
+}

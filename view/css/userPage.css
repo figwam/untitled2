@@ -1,0 +1,61 @@
+#header{
+    width:900px;
+    height: 45px;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: rgba(0,0,0,0.6);
+    box-sizing: border-box;
+}
+#menu{
+    width:900px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: rgba(0,0,0,0.3);
+}
+.menuButton, .buttonMenu{
+    display: inline-block;
+    width:200px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+.menuButton:hover, .buttonMenu:hover{
+    background-color: rgba(0,0,0,0.4);
+}
+.menuButton:active, .buttonMenu:active{
+    background-color: rgba(0,0,0,0.6);
+}
+.active{
+    background-color: rgba(0,0,0,0.6);
+}
+#shots{
+    margin-left: 125px;
+}
+#shop{
+    width: 900px;
+    margin: 0 auto;
+}
+.submit{
+    text-align: center;
+    line-height: 30px;
+    width: 200px;
+    color: white;
+    margin: 15px auto;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+.submit:hover{
+    cursor: pointer;
+}
+.submit:active{
+    background-color: rgba(0,0,0,1);
+}
+#name{
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 5px;
+    color: white;
+}
